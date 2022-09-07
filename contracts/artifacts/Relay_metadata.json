@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "jsonMessage",
+						"type": "string"
+					}
+				],
+				"name": "Message",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "jsonMessage",
+						"type": "string"
+					}
+				],
+				"name": "message",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Relay.sol": "Relay"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Relay.sol": {
+			"keccak256": "0x7233461cb3faecc62ff7f8fb911e828aa57e6357b12c7f6c933e843e1582cd4b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://98d514d7ae3137e4b2f22b8874e10c0efb749ad4bb1082840b65dd7910397f8d",
+				"dweb:/ipfs/QmPrDQ6SRRbtdof7n78BERzoMbdC7GuJ84UxU74z7wXBSu"
+			]
+		}
+	},
+	"version": 1
+}
